@@ -25,12 +25,7 @@ def places_visited(request):
 
 def place_was_visited(request, place_pk):
     if request.method == 'POST':
-        place = Place.objects.get_or_404(Place, pk=place_pk)
+        place = get_object_or_404(Place, pk=place_pk)
         place.visited = True
         place.save()
     return redirect('place_list')
-
-def about(request):
-    author = 'Ben'
-    about = 'A website to create a list of places to visit'
-    return render(request, 'travel_wishlist/about.html', {'author': author, 'about': about})

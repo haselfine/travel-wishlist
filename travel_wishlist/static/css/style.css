@@ -7,6 +7,11 @@ form.visited-form {
     display: inline
 }
 
+button.visited-button {
+    background-color: purple;
+    border: darkmagenta
+}
+
 div.wishlist-place {
     margin: 20px
 }
