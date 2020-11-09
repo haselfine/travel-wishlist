@@ -7,9 +7,21 @@ form.visited-form {
     display: inline
 }
 
-button.visited-button {
-    background-color: purple;
-    border: darkmagenta
+#site-header {
+    background: url('../img/jtree.jpg') 0 0 repeat-x;
+    color: white;
+    padding: 40px 0 40px 0px;
+    text-align: center;
+}
+
+.visited-button {
+    background-color: rgb(236, 187, 52);
+    border: rgb(202, 140, 69)
+}
+
+.delete {
+    background-color: red;
+    border: darkred;
 }
 
 div.wishlist-place {
@@ -26,6 +38,6 @@ a.nav-link {
 }
 
 #add-new-place {
-    background-color: purple;
-    border: darkmagenta
+    background-color: rgb(95, 211, 219);
+    border: rgb(88, 177, 184)
 }
